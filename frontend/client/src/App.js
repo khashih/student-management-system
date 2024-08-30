@@ -7,7 +7,7 @@ import Tdashboard from './components/Tdashboard';
 import Sdashboard from './components/Sdashboard';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
       <Router>
         <Routes>
