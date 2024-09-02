@@ -8,6 +8,7 @@ const student = require('../models/student');
 
 router.post('/teacher/register', async (req, res) => {
   try {
+    console.log(req.body);
     const { userId, password } = req.body;
     const Teachers = await Teacher.findOne({ userId });
     if (Teachers) {

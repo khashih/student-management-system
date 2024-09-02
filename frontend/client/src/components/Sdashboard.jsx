@@ -1,7 +1,9 @@
-import React,  { useState } from 'react';
+
+import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Progress } from '../components/ui/progress';
 import { Avatar, AvatarFallback, AvatarImage } from '../components/ui/avatar';
+import styles from './dashboard.css';
 
 const StudentDashboard = () => {
   // Mock data - in a real application, this would come from an API or database
